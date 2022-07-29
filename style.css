@@ -137,7 +137,68 @@ body{
   footer{
     margin-top: 10%;
     height: 270px;
-    background: 
-    #161616;
+    background: gray;
   }
+  .footer-info a{
+    color: #E8E8E8;
+    text-decoration: none;
+  }
+ 
+    .icon{
+    padding-bottom: 20px;
+    display: flex;
+    margin-left: 45%;
+  }
+  .fb{
+    margin-right: 10px;
+  }
+.inst{
+  margin-right: 10px;
+}
+.tiktok{
+  margin-right: 10px;
+}
+.twiter{
+  margin-right: 10px;
+}
+ 
   /* footer end */
+  /* Media Queries */
+  /* ----------- */
+  /* Mobaile device start */
+  @media only screen and (max-width: 688px) {
+ .course-list {
+ 
+    grid-template-columns: repeat(2, 1fr);
+ }
+.container{
+  width: 100%;
+}
+ .courses .course-container{
+  grid-template-columns: repeat(1, 1fr);
+ }
+ .course{
+  flex-direction: column;
+ }
+  }
+  
+  /* Mobaile device end */
+
+  /* tablet device start*/
+  @media only  screen and (min-width: 688px) and (max-width: 992px) {
+    .course-list {
+ 
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .container{
+    width: 100%;
+  }
+  .courses .course-container{
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .course{
+    flex-direction: column;
+   }
+
+  }
+  /* tablet end */
