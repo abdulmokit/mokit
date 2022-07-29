@@ -1,6 +1,7 @@
 /* font link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 body{
+  background-color: #E8E8E8;
     
 }
 
@@ -54,7 +55,6 @@ body{
       padding-top: 30%;
     }
     .header-title{
-      text-replace: none;
       padding-bottom: 5px;
 
      line-height: 85px;
